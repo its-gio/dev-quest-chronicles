@@ -1,0 +1,59 @@
+# Big O
+
+![](../../public/big-o.png)
+
+Big O notation is the worst case scenario of an algorithm. It describes the upper bound of the runtime of an algorithm in terms of the input size.
+
+**O(n) - Linear Time Complexity**
+
+The runtime grows linearly with the input size.
+
+```typescript
+function linearTimeComplexity(n: number): void {
+  for (let i = 0; i < n; i++) {
+    return i;
+  }
+}
+```
+
+---
+
+**O(1) - Constant Time Complexity**
+
+Runs only once regardless of the input size.
+
+```typescript
+function constantTimeComplexity(n: number): void {
+  return (n * (n + 1)) / 2;
+}
+```
+
+---
+
+**O(n^2) - Quadratic Time Complexity**
+
+The runtime grows quadratically with the input size.
+
+```typescript
+function quadraticTimeComplexity(n: number): void {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      return i + j;
+    }
+  }
+}
+```
+
+---
+
+**O(log n) - Logarithmic Time Complexity**
+
+The runtime grows logarithmically with the input size.
+
+```typescript
+function logarithmicTimeComplexity(n: number): void {
+  for (let i = 1; i < n; i *= 2) {
+    return i;
+  }
+}
+```

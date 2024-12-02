@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Dev Quest Chronicles</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/its-gio/dev-quest-chronicles',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  // chat: {
+  //   link: 'https://discord.com',
+  // },
+  docsRepositoryBase: 'https://github.com/its-gio/dev-quest-chronicles',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Dev Quest Chronicles',
   },
 }
 
